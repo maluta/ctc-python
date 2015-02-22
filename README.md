@@ -1,2 +1,2 @@
 
-switch to gh-pages branch 
+http://maluta.github.io/ctc-python/ 
