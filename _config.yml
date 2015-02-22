@@ -1,0 +1,16 @@
+# Site settings
+title: Programaê
+email: tiago@fundacaolemann.org.br
+description: >
+  Planos de Aula de Python do Programaê, 
+baseurl: "/ctc-python" # the subpath of your site, e.g. /blog/
+#url: "http://programae.github.io/blocos" # the base hostname & protocol for your site
+github_username:  programae
+
+# Build settings
+markdown: kramdown
+
+permalink:   /:categories/:title/
+
+
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
